@@ -4,5 +4,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Exercise</title>
 </head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <header>
+        <h1>HTML Exercise</h1>
+        <p>02. HTML Exercise</p>
+    </header>
+
+    <main>
+        <figure>
+            <img src="https://i.imgflip.com/6d5553.jpg?a474048" alt="hmmm" style="max-width: 25%; height: auto;">
+            <figcaption>Ikaw ahh</figcaption>
+        </figure>
+
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required minlength="3">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required minlength="8">
+            <br>
+            <label for="gender">Gender:</label>
+            <br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" id="female" name="female" value="female">
+            <label for="female">Female</label>
+            <br>
+
+            <label for="terms">Accept Terms and Conditions</label>
+            <input type="checkbox" id="terms" name="terms" required>
+
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+
+        <h2>Our Team</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+            <tr>
+                <td>John Wick</td> 
+                <td>24</td>
+                <td>California</td>
+            </tr>
+            <tr>
+                <td>Keanu Reeves</td>
+                <td>8</td>
+                <td>Vancouver</td>
+            </tr>
+        </table>
+
+        <h2>Media</h2>
+        <audio controls>
+            <source src="giggity.mp3" type="audio/mpeg">
+        </audio>
+        <br>
+        <video controls width="45%" style="max-width: 600px;">
+            <source src="heybibi.mp4" type="video/mp4">
+        </video>
+    </main>
+</body>
 </html>
