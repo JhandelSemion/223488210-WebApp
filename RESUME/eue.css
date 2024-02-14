@@ -1,0 +1,41 @@
+.resume-header {
+    background-color: #accc2b;
+    color: #cc2929;
+    padding: 10px;
+    text-align: center;
+}
+
+.resume-section {
+    margin-bottom: 20px;
+}
+
+.resume-section-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.resume-section-content {
+    line-height: 1.4;
+}
+
+.resume-button {
+    background-color: #a41fa9;
+    color: #3d26bc;
+    padding: 10x 20x;
+    border: none;
+    cursor: pointer;
+}
+
+.resume-button:hover {
+    background-color: #1ab136;
+}
+
+.resume-link {
+    color: #d19225;
+    text-decoration: none;
+}
+
+.resume-link:hover {
+    text-decoration: underline;
+}
