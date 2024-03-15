@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Bird</title>
+    <style type="text/css">
+        body {
+            background: skyblue;
+        }
+        .head {
+            background-color: yellow;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .eyeball {
+            background: black;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: 30%;
+            left: 30px;
+        }
+        .pupil {
+            color: white;
+            font-size: 18px;
+        }
+        .beak{
+            position: absolute;
+            bottom: 20%;
+            left: 45%;
+            font-size: 30px;
+            color: orange;
+        }
+        .body {
+            background: yellow;
+            width: 150px;
+            height: 100px;
+            margin: 0 auto;
+            border-radius: 50% 0 0 50%;
+        }
+        .wing {
+            position: absolute;
+            top: 20%;
+            left: -20px;
+            transform: rotate(-45deg);
+            font-size: 40px;
+            color: brown;
+        }
+        .drumsticks {
+            position: absolute;
+            bottom: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .drumsticks, .drumstick-right {
+            color: black;
+            font-size: 30px;
+        }
+        .drumstick-right {
+            transform: scaleX(-1);
+        }
+    </style>
+</head>
+<body>
+    <div class="canvas background"></div> <div class="air background"></div> <div class="head">
+        <div class="eyeball">
+            <span class="pupil">&middot;</span>
+        </div>
+        <div class="beak">
+            <strong>&gt;</strong>
+        </div>
+    </div>
+    <div class="body">
+        <div class="wing">
+            <strong>&lt;</strong>
+        </div>
+    </div>
+    <div class="drumsticks">|
+        <div class="drumstick">
+           <br/>
+        </div>
+        <div class="drumsticks drumstick-right">
+            <br/>/
+        </div>
+    </div>
+</body>
+</html>
